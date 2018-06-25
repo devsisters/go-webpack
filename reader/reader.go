@@ -3,8 +3,8 @@ package reader
 import (
 	"errors"
 
-	"github.com/go-webpack/webpack/reader/manifest"
-	"github.com/go-webpack/webpack/reader/stats"
+	"github.com/devsisters/go-webpack/reader/manifest"
+	"github.com/devsisters/go-webpack/reader/stats"
 )
 
 // Read webpack asset manifest

@@ -1,7 +1,7 @@
 ## go-webpack
 
-[![GoDoc](https://godoc.org/github.com/go-webpack/webpack?status.svg)](https://godoc.org/github.com/go-webpack/webpack)
-[![Go Report Card](https://goreportcard.com/badge/github.com/go-webpack/webpack)](https://goreportcard.com/report/github.com/go-webpack/webpack)
+[![GoDoc](https://godoc.org/github.com/devsisters/go-webpack?status.svg)](https://godoc.org/github.com/devsisters/go-webpack)
+[![Go Report Card](https://goreportcard.com/badge/github.com/devsisters/go-webpack)](https://goreportcard.com/report/github.com/devsisters/go-webpack)
 
 This module allows proper integration with webpack, with support for proper assets reloading in development and asset hashes for production caching.
 
@@ -24,7 +24,7 @@ This module is compatible with both webpack 3.0, 2.0 and 1.0. Example config fil
 ```golang
 import (
   ...
-  "github.com/go-webpack/webpack"
+  "github.com/devsisters/go-webpack"
 )
 func main() {
   is_dev := flag.Bool("dev", false, "development mode")
@@ -44,7 +44,7 @@ package controllers
 import (
   "github.com/qor/render"
   "github.com/gin-gonic/gin"
-  "github.com/go-webpack/webpack"
+  "github.com/devsisters/go-webpack"
 )
 
 var Render *render.Render
@@ -108,7 +108,7 @@ r.HTMLRender = render.Init()
 
 ```golang
 import (
-  "github.com/go-webpack/webpack"
+  "github.com/devsisters/go-webpack"
   iris "gopkg.in/kataras/iris.v6"
   "gopkg.in/kataras/iris.v6/adaptors/httprouter"
 )

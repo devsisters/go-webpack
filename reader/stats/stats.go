@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/go-webpack/webpack/util"
+	"github.com/devsisters/go-webpack/util"
 	"github.com/pkg/errors"
 )
 
